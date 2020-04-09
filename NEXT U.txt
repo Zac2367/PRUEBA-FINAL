@@ -1,0 +1,35 @@
+Conceptos Básicos Python.
+
+Elementos de un computador
+>Memoria principal: se almacenan las acciones
+>Unidad central de procesamiento CPU: contiene a la memoria principal
+>Memoria Secundaria: Resguarda información a lo largo: USB, DISCOS CD, DVD, MEMORIAS.
+>Dispositivos de Entrada y Salida
+  >Teclado, monitor, pantallas, impresoras, ratones, micrófonos, altavoces.
+
+Arquitectura de Von Neumann
+>Computador procesa datos para obtener información.
+Lenguaje Natural informal
+Pseudo-Código: Menos informal suele utilizarse para enseñanza
+Lenguaje de Programación: Python, Java, C, C++
+
+Evolucíon de la Programación.
+>Era comun programar para sistemas mainframes tales como RPG o Cobol, era secuencial, desorganizada y complicada de depurar.
+>En los 90´s surgen sistemas operativos gráficos, dispositivos multimedia incorporados. Por ejemplo Visual Basi, Fox Pro, C++.
+>Finales de los 90´s surge el Internet da paso a la programación Web. HTML, PHP, Perl.
+>Nuevo milenio, evoluciona la programación permitió eficientar la programación como Java, Ruby, JavaScript, Python.
+
+Linea del Tiempo
+-1843 Ada Lovelace desarrolla primer lenguaje de programación, escribe un algoritmo para la maquina analítica de Charles Babbage.
+-1957 Formula Transalting System. Lenguage de programación de alto nivel.
+-1958 LISP >> List Processor. Utilizado para la notación matemática y temas de ciencias de la computación
+-1964 BASIC >> BEGINNER´S ALL PURPOSE SYMBOLIC INSTRUCTION CODE. Diseñado para la simplicidad PC
+-1970 PASCAL >> Enseñanza de la programación estructurada
+-1972 Dennis Ritchie crea el lenguaje C
+-1983 C++ >> Lenguaje con calses orientado a objetos, mejora C
+-1991 Python >> Lenguaje de propósito general apoya variedad de estilos de programación
+-1993 RUBY >> Lenguaje de alto nivel influenciado por Perl, Ada, Lisp, SmallTalk programación productiva y agradable.
+-1995 JAVA >> Funcionamineto multiplatafomra en desarrollo de aplicaciones web e interfaces de usuario.
+-1995 PHP >> Personal Home Page, usado en Facebook, Wikipedia, Joomla.
+-1995 JAVASCRIPT >> Extiende las funcionalidades de las páginas web, paginas dinámicas, utilizando formularios de presentación, animación, interactividad, entre otros.
+

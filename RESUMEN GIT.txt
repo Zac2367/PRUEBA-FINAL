@@ -1,0 +1,22 @@
+GIT 
+
+WORKING DIRECTORY ==> git add <nombre> ==> STAGING AREA ==> git commit ==> REPOSITORY
+pwd ------------------------> Saber en donde nos encontramos
+ls -------------------------> Ver el directorio del computador
+git init -------------------> inicializa el git
+git add <nombre> -----------> Agrega archivos
+git log --------------------> Nos muestra los datos snapshot
+git checkout -- <nombre> ---> CTRL Z quita los cambios
+git diff -------------------> Nos muestra los cambios, modificaciones al código
+git status -----------------> Nos muestra el estado del código
+git commit -----------------> Sube el código al repositorio
+	{
+		i para poder empezar a escribir el mensaje
+		ESC ==> :wq!		w=write	q=quit
+	}
+.gitignore -----------------> Ignora códigos para no tener que subirlos
+git commit -m --------------> Nos ahorra el ESC, podemos escribir el mensaje
+git branch <nombre> --------> Crear una versión alternativa 
+git remote add origin URL --> Para subir el codigo a GitHub
+git push -u origin master --> Enumera todos los archivos que hemos trabajando y los sube
+git clone URL CLONE --------> Volver a copiar el código en la computadora por si se borra

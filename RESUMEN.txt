@@ -1,0 +1,89 @@
+PYTHON 
+
+// DIVISION SIN LA MANTISA
+** EXPONENTE
+
+variable[n]= MUESTRA LA LETRA POSICIONADA DEL ARREGLO  (CADENA)}
+variable[n:]=ESCRIBE LA CADENA APARTIR DE LA POSICION SIN TOMARLA EN CUENTA ESTA
+variable[:3]=ESCRIBE HASTA LA POSICION SELECCIONADA
+variable[:]= ESCRIBE TODO
+variable[::n]=ESCRIBE TODO EN ESCALONES DE LA n SELECCIONADA
+variable[::-n]=ESCRIBE TODO AL REVES EN ESCALONES
+variable + " X letras"=CONCATENA
+variable*n=REPITE LA CADENA
+.upper=PONE EN MAYUSCULAS
+.lower=PONE EN MINUSCULAS
+.split=SEPARA LA CADENA
+.pop(n)=QUITA EL OBJETO INDICADO
+.reverse()=ESCRIBE LA CADENA AL REVES
+.sort()=ARREGLA LA CADENA EN ORDEN ALFABETICO 
+.format()=METODO DE ENTRADA DE DATOS
+
+x, y = 'some', 'more'
+print("I'm going to inject %s text here, and %s text here."%(x,y)
+I'm going to inject some text here, and more text here.
+
+repr() - %r = REPRESENTACIÓN DE UN OBJETO
+.format=INSERTA OBJETOS CON BASE A SU POSICION
+print('First Object: {a}, Second Object: {b}, Third Object: {c}'.format(a=1,b='Two',c=12.3))
+First Object: 1, Second Object: Two, Third Object: 12.3
+print('A {p} saved is a {p} earned.'.format(p='penny'))
+
+
+Within the curly braces you can assign field lengths, left/right alignments, rounding parameters and more
+
+puntos(inicio:fin)
+puntos(inicio:fin:salto)
+print('{0:8} | {1:9}'.format('Fruit', 'Quantity'))
+print('{0:8} | {1:9}'.format('Apples', 3.))
+print('{0:8} | {1:9}'.format('Oranges', 10))
+Fruit    | Quantity 
+Apples   |       3.0
+Oranges  |        10
+
+
+By default, .format() aligns text to the left, numbers to the right. You can pass an optional <,^, or > to set a left, center or right alignment:
+
+
+print('{0:<8} | {1:^8} | {2:>8}'.format('Left','Center','Right'))
+print('{0:<8} | {1:^8} | {2:>8}'.format(11,22,33))
+Left     |  Center  |    Right
+11       |    22    |       33
+You can precede the aligment operator with a padding character
+
+
+print('{0:=<8} | {1:-^8} | {2:.>8}'.format('Left','Center','Right'))
+print('{0:=<8} | {1:-^8} | {2:.>8}'.format(11,22,33))
+Left==== | -Center- | ...Right
+11====== | ---22--- | ......33
+
+
+Float formatting follows "result: {value:{width}.{precision}}"
+Where with the .format() method you might see {value:10.4f}, with f-strings this can become {value:{10}.{6}}
+
+num = 23.45678
+print("My 10 character, four decimal number is:{0:10.4f}".format(num))
+print("My 10 character, four decimal number is:{num:{10}.{6}}")
+My 10 character, four decimal number is:   23.4568
+My 10 character, four decimal number is:   23.4568
+
+
+DICCIONARIOS - MATRICES ASOCIATIVAS
+d={"Love Actually":"Richard Curtis","Kill Bill":"Tarantino","Amélie":"Jean-Pierre Jeunet"}
+El primer valor se trata de la clave y el segundo del valor asociado a la clave
+
+IF---ELIF....ELSE
+NO EXISTE SWITCH EN PYTHON
+fav=False
+if fav==True:
+    print("\nMUY BIEN HECHO\t NO TE RINDAS")
+else:
+    print("\nSUERTE PARA LA PROXIMA")
+
+num=7
+if num==0:
+    print("CERO")
+elif num>0:
+    print("POSITIVO")
+elif num<0:
+    print("NEGATIVO")
